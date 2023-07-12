@@ -11,7 +11,6 @@ app.use(bodyParser.json());
 
 app.use("/user", userRouter);
 app.use("/login", loginRouter);
-/* app.use(express.json()); */
 
 
 module.exports = app;
